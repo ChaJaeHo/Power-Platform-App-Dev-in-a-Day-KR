@@ -1,0 +1,65 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{ea4d5758-d2d2-ee11-904c-6045bd4520a6}" Name="GPPB Participant 07">
+      <JsonFileName>/Workflows/GPPBParticipant07-EA4D5758-D2D2-EE11-904C-6045BD4520A6.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1042" description="GPPB Participant 07" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <Connectors>
+    <Connector>
+      <connectorid>f0969e36-a5e0-4dad-bf71-575eb1627d7a</connectorid>
+      <description>Custom Connector for Global Power Platform Bootcamp</description>
+      <displayname>GPPB01</displayname>
+      <iconbrandcolor>#007ee5</iconbrandcolor>
+      <name>pp07_gppb01</name>
+      <connectortype>1</connectortype>
+      <openapidefinition>/Connector/pp07_gppb01_openapidefinition.json</openapidefinition>
+      <connectionparameters>/Connector/pp07_gppb01_connectionparameters.json</connectionparameters>
+      <policytemplateinstances>/Connector/pp07_gppb01_policytemplateinstances.json</policytemplateinstances>
+      <iconblob>/Connector/pp07_gppb01_iconblob.Png</iconblob>
+    </Connector>
+  </Connectors>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="pp07_sharedgppb015f79ffc4c7e59e9d2a5facb32852895a09c0_e7e45">
+      <connectionreferencedisplayname>GPPB01 GPPBParticipant07-e7e45</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_gppb01-5f79ffc4c7e59e9d2a-5facb32852895a09c0</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1042</Language>
+  </Languages>
+</ImportExportXml>
